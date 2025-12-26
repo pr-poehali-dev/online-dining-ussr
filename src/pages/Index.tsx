@@ -97,7 +97,11 @@ export default function Index() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-accent soviet-star"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="jERP Logo" 
+                className="w-12 h-12 object-contain bg-white rounded-full p-1"
+              />
               <div>
                 <h1 className="text-3xl font-bold">Столовая №7</h1>
                 <p className="text-sm opacity-90">Блюда, как из детства</p>
@@ -334,7 +338,11 @@ export default function Index() {
       <footer className="bg-primary text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-8 h-8 bg-accent soviet-star"></div>
+            <img 
+              src="https://cdn.poehali.dev/files/logoza.ru.png" 
+              alt="jERP Logo" 
+              className="w-8 h-8 object-contain bg-white rounded-full p-0.5"
+            />
             <p className="text-xl font-bold">Столовая №7</p>
           </div>
           <p className="opacity-90">Вкус детства с 1977 года</p>
