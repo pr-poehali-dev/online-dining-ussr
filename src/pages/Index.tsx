@@ -384,12 +384,15 @@ export default function Index() {
             
             <Card className="overflow-hidden">
               <CardContent className="p-0">
-                <div className="w-full h-[400px] bg-muted flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <Icon name="Map" size={64} className="mx-auto mb-4 opacity-50" />
-                    <p>Интерактивная карта</p>
-                  </div>
-                </div>
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3A0c8c6c5e8b8f8e8e8e8e8e8e8e8e8e8e&amp;source=constructor"
+                  width="100%"
+                  height="400"
+                  frameBorder="0"
+                  className="w-full h-[400px]"
+                  title="Карта местоположения столовой"
+                  style={{ border: 0 }}
+                ></iframe>
               </CardContent>
             </Card>
           </div>
