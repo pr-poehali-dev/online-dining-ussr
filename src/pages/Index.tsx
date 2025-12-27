@@ -209,10 +209,10 @@ export default function Index() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-r from-primary to-secondary text-white py-20 soviet-pattern">
+      <section className="bg-gradient-to-r from-primary to-secondary py-20 soviet-pattern">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-5xl font-bold mb-4 animate-fade-in">Вкус детства в каждом блюде</h2>
-          <p className="text-xl opacity-90 mb-8 animate-fade-in">
+          <h2 className="text-5xl font-bold mb-4 animate-fade-in text-black">Вкус детства в каждом блюде</h2>
+          <p className="text-xl mb-8 animate-fade-in text-black">
             Готовим по классическим рецептам советских столовых
           </p>
           <Button 
