@@ -279,6 +279,68 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Staff */}
+      <section className="py-16 bg-card">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-4 text-primary">Наши повара</h2>
+          <p className="text-center text-muted-foreground mb-12 text-lg">
+            Команда профессионалов с многолетним опытом
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="text-center hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/f5925be0-4cc6-47f7-a6f5-2aff7589b4eb/files/4e8afd63-d615-48a0-8c05-97fb6fa14aaa.jpg" 
+                    alt="Шеф-повар Александр Петров" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Александр Петров</h3>
+                <p className="text-primary font-medium mb-2">Шеф-повар</p>
+                <p className="text-muted-foreground text-sm">
+                  25 лет опыта. Специализируется на первых блюдах и классической кухне
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/f5925be0-4cc6-47f7-a6f5-2aff7589b4eb/files/fdfde376-1be6-4baa-9c66-c6c9fbd71ad6.jpg" 
+                    alt="Су-шеф Елена Соколова" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Елена Соколова</h3>
+                <p className="text-primary font-medium mb-2">Су-шеф</p>
+                <p className="text-muted-foreground text-sm">
+                  15 лет опыта. Мастер выпечки и десертов по традиционным рецептам
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/f5925be0-4cc6-47f7-a6f5-2aff7589b4eb/files/ffb3e326-1d95-4364-a2fb-de10387869e1.jpg" 
+                    alt="Повар Виктор Иванов" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Виктор Иванов</h3>
+                <p className="text-primary font-medium mb-2">Повар</p>
+                <p className="text-muted-foreground text-sm">
+                  20 лет опыта. Эксперт по мясным блюдам и домашним котлетам
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Map & Contacts */}
       <section className="py-16 bg-secondary/10">
         <div className="container mx-auto px-4">
