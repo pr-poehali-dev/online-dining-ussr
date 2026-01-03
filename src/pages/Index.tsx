@@ -98,9 +98,9 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <img 
-                src="https://cdn.poehali.dev/projects/f5925be0-4cc6-47f7-a6f5-2aff7589b4eb/files/86b91484-bff2-4d75-afcc-34fa274cb74f.jpg" 
-                alt="Столовая №7 Логотип" 
-                className="w-12 h-12 object-cover rounded-full"
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="jERP Logo" 
+                className="w-12 h-12 object-contain bg-white rounded-full p-1"
               />
               <div>
                 <h1 className="text-3xl font-bold">Столовая №7</h1>
@@ -404,9 +404,9 @@ export default function Index() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <img 
-              src="https://cdn.poehali.dev/projects/f5925be0-4cc6-47f7-a6f5-2aff7589b4eb/files/86b91484-bff2-4d75-afcc-34fa274cb74f.jpg" 
-              alt="Столовая №7 Логотип" 
-              className="w-8 h-8 object-cover rounded-full"
+              src="https://cdn.poehali.dev/files/logoza.ru.png" 
+              alt="jERP Logo" 
+              className="w-8 h-8 object-contain bg-white rounded-full p-0.5"
             />
             <p className="text-xl font-bold">Столовая №7</p>
           </div>
